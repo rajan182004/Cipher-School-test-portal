@@ -39,7 +39,7 @@ const ResetPassword = () => {
     setMessage("");
     try {
       const res = await axios.post(
-        `http://localhost:3001/api/auth/reset-password`,
+        `https://online-test-platform-0h5r.onrender.com/api/auth/reset-password`,
         { password: newPassword, token: params.token}
       );
       setNewPassword("");

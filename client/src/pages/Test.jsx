@@ -24,7 +24,7 @@ function Test() {
   useEffect(() => {
     if (cameraAllowed) {
       setTestLoading(true);
-      fetch(`http://localhost:3001/api/test/${testId}`, {
+      fetch(`https://online-test-platform-0h5r.onrender.com/api/test/${testId}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

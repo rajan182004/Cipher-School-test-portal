@@ -9,7 +9,7 @@ function VerifyEmail() {
     const verifyEmail = async () => {
       try {
         const res = await axios.post(
-          `http://localhost:3001/api/auth/verify-email`,
+          `https://online-test-platform-0h5r.onrender.com/api/auth/verify-email`,
           { token: params.token }
         );
         setResult(res.data.message);

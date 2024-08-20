@@ -71,7 +71,7 @@ const Auth = () => {
         try {
           setIsRequesting(true);
           const res = await axios({
-            url: "http://localhost:3001/api/auth/login",
+            url: "https://online-test-platform-0h5r.onrender.com/api/auth/login",
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -95,7 +95,7 @@ const Auth = () => {
         try {
           setIsRequesting(true);
           const res = await axios({
-            url: "http://localhost:3001/api/auth/register",
+            url: "https://online-test-platform-0h5r.onrender.com/api/auth/register",
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -122,7 +122,7 @@ const Auth = () => {
 
   const handleGoogleAuth = async () => {
     try {
-      const res = await axios.get("http://localhost:3001/api/auth/google-request");
+      const res = await axios.get("https://online-test-platform-0h5r.onrender.com/api/auth/google-request");
       console.log(res.data);
       window.location.href = res.data.url;
     } catch (err) {

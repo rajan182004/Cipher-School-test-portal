@@ -22,7 +22,7 @@ function AllTests() {
   useEffect(() => {
     setIsLoading(true);
     try {
-      fetch("http://localhost:3001/api/test/all", {
+      fetch("https://online-test-platform-0h5r.onrender.com/api/test/all", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -43,7 +43,7 @@ function AllTests() {
   // fetch user
   useEffect(() => {
     try {
-      fetch("http://localhost:3001/api/user", {
+      fetch("https://online-test-platform-0h5r.onrender.com/api/user", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

@@ -56,7 +56,7 @@ GOOGLE_REDIRECT_URI = BACKEND_URL/api/auth/google # (replace BACKEND_URL with yo
 3. Create Credentials (OAuth client ID).
 4. Select application type (web application), add app name.
 5. Add Frontend URL (http://localhost:5173) in "Authorized JavaScript origins".
-6. Add BACKEND_URL/api/auth/google in Authorized redirect URIs (http://localhost:3001/api/auth/google) and save.
+6. Add BACKEND_URL/api/auth/google in Authorized redirect URIs (https://online-test-platform-0h5r.onrender.com/api/auth/google) and save.
 7. Copy and replace Client ID and Client Secret in .env
 
 
@@ -77,4 +77,4 @@ npm start
 ```
 
 All Done!
-Your authentication system should now be running. You can access the client at http://localhost:5173 and the server at http://localhost:3001
+Your authentication system should now be running. You can access the client at http://localhost:5173 and the server at https://online-test-platform-0h5r.onrender.com
