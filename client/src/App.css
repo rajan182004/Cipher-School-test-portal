@@ -1,0 +1,9 @@
+#root {
+  height: fit-content;
+  min-height: 100vh;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
+}
